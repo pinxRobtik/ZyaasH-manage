@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {} !*
-✪ Hɪ sᴀʏᴀ ᴊᴏᴏx ᴍᴜsɪᴄ[🎧](https://telegra.ph//file/36b82082176fa41ed78ba.jpg)
+✪ Hɪ sᴀʏᴀ Yᴀᴀsʜ Mᴜsɪᴄ[🎧](https://telegra.ph/file/1e0543558ca953ab9bb47.jpg)
 ────────────────────────
 ◈ *ᴜᴘᴛɪᴍᴇ:* `{}`
 ◈ `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ * `{}` *ɢʀᴏᴜᴘ*
@@ -97,7 +97,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴏᴡɴᴇʀ", url="https://t.me/Masex77"
+            text="ᴏᴡɴᴇʀ", url="https://t.me/Dexzishere"
         ),
     ],
     [
@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="https://t.me/Dark_musikbot?startgroup=true"
+            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="https://t.me/Yashhmusic_bot?startgroup=true"
         ),
     ],
 ]
@@ -115,10 +115,10 @@ buttons = [
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-HIKARI_IMG = "https://telegra.ph//file/08bb31612374ad966c6c6.jpg"
+HIKARI_IMG = "https://telegra.ph/file/1e0543558ca953ab9bb47.jpg"
 
 DONATE_STRING = """Hai,para pengguna Joox Music
- kalian dapat mendukung bot ini dengan cara menghubungi @cdkagenouu \
+ kalian dapat mendukung bot ini dengan cara menghubungi @Dexzishere \
  Satu support dari kalian sangat berarti \
  semoga kalian suka dengan bot ini selamat menggunakan bot ini ."""
 
@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hᴇʟʟᴏ Jᴏᴏx Mᴜsɪᴄ!</b>\n<b>𝚄𝚙𝚝𝚒𝚖𝚎:</b> <code>{uptime}</code>",
+            f"<b>Hᴇʟʟᴏ Yᴀᴀsʜ Mᴜsɪᴄ!</b>\n<b>𝚄𝚙𝚝𝚒𝚖𝚎:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -446,7 +446,7 @@ def hikari_about_callback(update, context):
         )
     elif query.data == "hikari_support":
         query.message.edit_text(
-            text="*📝 Bantuan Perintah Joox Music*"
+            text="*📝 Bantuan Perintah Yᴀᴀsʜ Mᴜsɪᴄ*"
             "\npilih tombol dibawah untuk melihat bantuan perintah Joox Music.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -503,7 +503,7 @@ def hikari_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="**𝙲𝚒𝚍**", url="https://t.me/cdkagenouu"),
+                    InlineKeyboardButton(text="**Teken**", url="https://t.me/Dexzishere"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="hikari_back"),
