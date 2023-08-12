@@ -92,12 +92,12 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+cobEr0NNAekzOWJl"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/zasupport"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴏᴡɴᴇʀ", url="https://t.me/Dexzishere"
+            text="ᴏᴡɴᴇʀ", url="https://t.me/inirezatentunya"
         ),
     ],
     [
@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="https://t.me/Yashhmusic_bot?startgroup=true"
+            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="https://t.me/rezaxmusicbot?startgroup=true"
         ),
     ],
 ]
@@ -115,12 +115,12 @@ buttons = [
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-HIKARI_IMG = "https://telegra.ph/file/1e0543558ca953ab9bb47.jpg"
+HIKARI_IMG = "https://telegra.ph//file/4b747318ec1a036433a02.jpg"
 
 DONATE_STRING = """Hai,para pengguna Joox Music
- kalian dapat mendukung bot ini dengan cara menghubungi @Dexzishere \
- Satu support dari kalian sangat berarti \
- semoga kalian suka dengan bot ini selamat menggunakan bot ini ."""
+ kalian dapat mendukung bot ini dengan cara menghubungi @inirezatentunya 
+ Satu support dari kalian sangat berarti 
+ semoga kalian suka dengan bot ini selamat menggunakan."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hᴇʟʟᴏ Yᴀᴀsʜ Mᴜsɪᴄ!</b>\n<b>𝚄𝚙𝚝𝚒𝚖𝚎:</b> <code>{uptime}</code>",
+            f"<b>ʜɪ sᴀʏᴀ ʀᴇᴢᴀ ʀᴏʙᴏᴛ!</b>\n<b>𝚄𝚙𝚝𝚒𝚖𝚎:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -365,8 +365,8 @@ def hikari_about_callback(update, context):
     query = update.callback_query
     if query.data == "hikari_":
         query.message.edit_text(
-            text="🎧 Bantuan Perintah Joox Music."
-            "\npilih menu di bawah ini untuk melihat bantuan Music Joox ",
+            text="🎧 Bantuan Perintah Reza Robot."
+            "\npilih menu di bawah ini untuk melihat bantuan Reza Robot ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -446,8 +446,8 @@ def hikari_about_callback(update, context):
         )
     elif query.data == "hikari_support":
         query.message.edit_text(
-            text="*📝 Bantuan Perintah Yᴀᴀsʜ Mᴜsɪᴄ*"
-            "\npilih tombol dibawah untuk melihat bantuan perintah Joox Music.",
+            text="*📝 Bantuan Perintah Reza Robot*"
+            "\npilih tombol dibawah untuk melihat bantuan perintah reza robot.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -497,13 +497,13 @@ def hikari_about_callback(update, context):
         )
     elif query.data == "hikari_own":
         query.message.edit_text(
-            text="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Joox Music,"
+            text="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat reza robot,"
             "\n\n • Silahkan Hubungi Owner atau klik dibawah ini",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="**Teken**", url="https://t.me/Dexzishere"),
+                    InlineKeyboardButton(text="**Teken**", url="https://t.me/inirezatentunya"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="hikari_back"),
