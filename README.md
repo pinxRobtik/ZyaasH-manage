@@ -12,6 +12,7 @@
 <a href="https://dashboard.heroku.com/new?template=https://github.com/naya1503/Azazel-Project"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/Pinxrobtik/Cid-Prem)
 
 ## CREDITS:
 - [OnlyMeriz](https://github.com/Naya1503)
